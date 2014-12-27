@@ -11,7 +11,7 @@ var (
 // iterate 5 times, start with approximation
 // of 10
 approx := 10.0
-iterate := 10
+iterate := 5
 
 soln := Apply(value, ƒ, dƒ, iterate, approx)
 
